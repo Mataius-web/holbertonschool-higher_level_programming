@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
+"""This module defines a CustomObject class 
+that can be serialized and deserialized using the pickle module."""
 import pickle
 
 
 class CustomObject:
+    """Class representing a custom object"""
     def __init__(self, name, age, is_student):
         self.name = name
         self.age = age
@@ -17,7 +20,7 @@ class CustomObject:
         try:
             with open(filename, 'wb') as file:
                 pickle.dump(self, file)
-        except (pickle.PicklingError, OSError) as e:
+        except (IOError, pickle.PicklingError, EOFError, Exception) as e:
             return None
 
     @classmethod
@@ -31,5 +34,5 @@ class CustomObject:
             else:
                 return None
         
-        except (FileNotFoundError, pickle.PickleError, EOFError, OSError):
+        except (IOError, pickle.UnpicklingError, EOFError, Exception) as e:
             return None
