@@ -4,9 +4,9 @@ import pickle
 
 class CustomObject:
     def __init__(self, name, age, is_student):
-        self.name = "Nicolas"
-        self.age = 32
-        self.is_student = True
+        self.name = name
+        self.age = age
+        self.is_student = is_student
 
     def display(self):
         print(f"Name: {self.name}")
