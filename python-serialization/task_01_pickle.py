@@ -7,14 +7,14 @@ import pickle
 class CustomObject:
     """Class represents a custom object"""
     def __init__(self, name, age, is_student):
-        self.custname = name
-        self.custage = age
-        self.custis_student = is_student
+        self.name = name
+        self.age = age
+        self.is_student = is_student
 
     def display(self):
-        print(f"Name: {self.custname}")
-        print(f"Age: {self.custage}")
-        print(f"Is Student: {self.custis_student}")
+        print(f"Name: {self.name}")
+        print(f"Age: {self.age}")
+        print(f"Is Student: {self.is_student}")
 
     def serialize(self, filename):
         """Serializes the object and saves it to a file using Pickle"""
