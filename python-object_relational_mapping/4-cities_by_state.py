@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Lists all the cities from the cities table"""
+"""List all the cities from the cities table"""
 
 import MySQLdb
 from sys import argv

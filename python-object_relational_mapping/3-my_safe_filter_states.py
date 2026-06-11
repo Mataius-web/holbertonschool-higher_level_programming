@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Searches a specific data from a user, this one is safe from SQL injection"""
+"""Searches a specific data from a user, this one is safe from SQL ijection"""
 from sys import argv
 import MySQLdb
 

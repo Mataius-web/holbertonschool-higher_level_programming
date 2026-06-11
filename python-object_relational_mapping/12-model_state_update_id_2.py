@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Script that updates a data using the ORM"""
+"""Script that update a data using the ORM"""
 
 from sys import argv
 from sqlalchemy import create_engine

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Script that prints the states with an 'a'"""
+"""Script that print the states with an 'a'"""
 
 from sys import argv
 from sqlalchemy.orm import sessionmaker

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Script that deletes all the states with an "a" """
+"""Script that delete all the states with an "a" """
 
 from sys import argv
 from sqlalchemy import create_engine

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Files that searches for a specific data from the user"""
+"""Files that searche for a specific data from the user"""
 import MySQLdb
 from sys import argv
 

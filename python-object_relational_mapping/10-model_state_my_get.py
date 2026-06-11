@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Script that fetches a data from a given input by the user"""
+"""Script that fetche a data from a given input by the user"""
 from sys import argv
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker

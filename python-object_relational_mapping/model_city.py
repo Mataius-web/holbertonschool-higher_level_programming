@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module that creates the city class for the cities table"""
+"""Module that create the city class for the cities table"""
 from sqlalchemy import Integer, String, Column, ForeignKey
 from model_state import Base, State
 

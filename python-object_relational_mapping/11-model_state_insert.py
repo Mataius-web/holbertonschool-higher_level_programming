@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Script that adds a new State oject to the table"""
+"""Script that add a new State oject to the table"""
 
 from sys import argv
 from sqlalchemy import create_engine

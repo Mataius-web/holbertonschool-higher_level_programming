@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Fetches all the cities of a specific state"""
+"""Fetche all the cities of a specific state"""
 import MySQLdb
 from sys import argv
 

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Script that fetches the states starting with an "N" """
+"""Script that fetches the state starting with an "N" """
 
 import MySQLdb
 from sys import argv

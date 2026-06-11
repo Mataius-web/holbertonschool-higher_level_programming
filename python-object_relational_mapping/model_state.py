@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module that maps the states table in the SQL"""
+"""Module that maps the state table in the SQL"""
 
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base

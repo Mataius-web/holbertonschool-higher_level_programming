@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Script that prints all City objects from the database hbtn_0e_14_usa """
+"""Script that prints all City object from the database hbtn_0e_14_usa """
 
 from sys import argv
 from sqlalchemy import create_engine

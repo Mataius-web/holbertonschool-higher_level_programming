@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Script that prints the first State object from the db"""
+"""Script that print the first State object from the db"""
 
 from sys import argv
 from sqlalchemy.orm import sessionmaker
