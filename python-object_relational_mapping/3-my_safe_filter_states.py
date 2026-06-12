@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Script that safely filters states by user input, safe from SQL injection."""
+"""Script that safely filter states by user input, safe from SQL injection."""
 import MySQLdb
 import sys
 

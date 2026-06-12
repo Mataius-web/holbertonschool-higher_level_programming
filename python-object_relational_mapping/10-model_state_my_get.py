@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Script that prints the State object with the name passed as argument."""
+"""Script that print the State object with the name passed as argument."""
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session

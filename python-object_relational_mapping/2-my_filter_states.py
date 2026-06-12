@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Script that filters states by user input from the database."""
+"""Script that filters state by user input from the database."""
 import MySQLdb
 import sys
 

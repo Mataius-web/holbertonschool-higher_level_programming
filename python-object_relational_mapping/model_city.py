@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module that defines the City class for SQLAlchemy ORM."""
+"""Module that define the City class for SQLAlchemy ORM."""
 from sqlalchemy import Column, Integer, String, ForeignKey
 from model_state import Base
 

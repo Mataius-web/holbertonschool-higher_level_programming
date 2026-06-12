@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Script that adds the State object Louisiana to the database."""
+"""Script that add the State object Louisiana to the database."""
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session

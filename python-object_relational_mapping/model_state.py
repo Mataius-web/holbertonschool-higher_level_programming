@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module that defines the State class and Base instance for SQLAlchemy ORM."""
+"""Module that define the State class and Base instance for SQLAlchemy ORM."""
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 
