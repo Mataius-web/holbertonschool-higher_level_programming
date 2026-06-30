@@ -7,6 +7,5 @@ if (isNaN(arg)) {
 } else {
   for (let i = 0; i < arg; i++) {
     console.log('X'.repeat(arg));
-
   }
 }
