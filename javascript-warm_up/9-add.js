@@ -1,7 +1,6 @@
 #!/usr/bin/node
 
-
-function add(a, b) {
+function add (a, b) {
   const firstNumber = parseInt(a);
   const secNumber = parseInt(b);
   if (isNaN(firstNumber) || isNaN(secNumber)) {
